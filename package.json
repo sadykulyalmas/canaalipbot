@@ -1,0 +1,29 @@
+{
+  "name": "canaalipbot",
+  "version": "0.4.0",
+  "description": "Telegram bot for transform cyrillic Kazakh characters to Cana alip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadykulyalmas/canaalip.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava",
+    "release": "standard-version"
+  },
+  "author": "Sadykuly Almas)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "canaalip-db": "^4.0.0",
+    "telegraf": "^3.25.5"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "standard-version": "^9.5.0"
+  }
+}
