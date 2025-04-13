@@ -12,7 +12,7 @@
     "test": "ava",
     "release": "standard-version"
   },
-  "author": "Sadykuly Almas)",
+  "author": "Sadykuly Almas",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
